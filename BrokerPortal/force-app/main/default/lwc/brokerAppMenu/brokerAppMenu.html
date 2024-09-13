@@ -1,0 +1,11 @@
+<template>
+    <div class="slds-grid slds-wrap">            
+        <template for:each={records} for:item="app">                
+            <c-broker-app-tile 
+                key={app.fields.Id.value}
+                app={app.fields}
+                class="slds-col slds-size_6-of-12 slds-p-around_xxx-small">
+            </c-broker-app-tile>
+        </template>        
+    </div>
+</template>
