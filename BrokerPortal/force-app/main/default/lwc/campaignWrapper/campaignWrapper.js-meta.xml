@@ -8,6 +8,8 @@
 	<targets>
 		<target>lightning__AppPage</target>
 		<target>lightning__RecordPage</target>
+		<target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
 	</targets>
 	<targetConfigs>
 		<targetConfig targets="lightning__AppPage">
@@ -23,6 +25,9 @@
 				<supportedFormFactor type="Small"/>
 				<supportedFormFactor type="Large"/>
 			</supportedFormFactors>
+		</targetConfig>
+		<targetConfig targets="lightningCommunity__Default">
+			<property name="campaignName" type="String" label="Campaign" />
 		</targetConfig>
 	</targetConfigs>
 </LightningComponentBundle>
