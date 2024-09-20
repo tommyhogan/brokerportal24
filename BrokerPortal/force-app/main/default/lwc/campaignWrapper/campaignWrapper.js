@@ -16,4 +16,8 @@ export default class CampaignWrapper extends LightningElement {
 		const component = await COMPONENT_MAP[this.campaignName]();
 		this.componentConstructor = component.default;
 	}
+
+	// usage :
+	// https://benchtech2024-dev-ed.develop.my.site.com/g2/s/campaigns?campaignName=campaign1 
+	// https://benchtech2024-dev-ed.develop.my.site.com/g2/s/campaigns?campaignName=campaign2
 }
